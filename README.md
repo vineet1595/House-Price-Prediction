@@ -11,8 +11,7 @@
 
 <br/>
 
-> **An end-to-end Data Science project** that predicts house prices in Bangalore using SQL, Python, Machine Learning, Deep Learning Neural Networks, and Power BI — built over 7 days from raw data to a fully deployed prediction function.
-
+> **An end-to-end Data Science project** that predicts house prices in Bangalore using SQL, Python, Machine Learning, Deep Learning Neural Networks, and Power BI.
 <br/>
 
 | Metric | Score |
