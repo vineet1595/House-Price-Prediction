@@ -263,7 +263,7 @@ USE bangalore_project;
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/bangalore-house-price-prediction.git
+git clone https://github.com/https://github.com/vineet1595/bangalore-house-price-prediction.git
 cd bangalore-house-price-prediction
 
 # Install dependencies
