@@ -269,20 +269,14 @@ cd bangalore-house-price-prediction
 # Install dependencies
 pip install -r requirements.txt
 
-# Run notebooks in order
+# Run notebook in
 jupyter notebook
 ```
 
-Open notebooks in this order:
-1. `Day1_SQL_Exploration.ipynb`
-2. `Day2_Data_Cleaning.ipynb`
-3. `Day3_EDA_Visualizations.ipynb`
-4. `Day4_Feature_Engineering_Pipeline.ipynb`
-5. `Day5_Baseline_ML_Models.ipynb`
-6. `Day6_Deep_Learning.ipynb`
-7. `Day7_Evaluation_Predict_Function.ipynb`
+Open notebook :
+1. `Bangalore Prediction.ipynb`
 
-> ⚠️ Update MySQL credentials in each notebook before running:
+> ⚠️ Update MySQL credentials in notebook before running:
 > ```python
 > MYSQL_USER     = "root"
 > MYSQL_PASSWORD = "your_password"
