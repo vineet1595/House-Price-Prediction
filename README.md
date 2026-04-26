@@ -453,10 +453,12 @@ jupyter>=1.0.0
 
 ## 👨‍💻 Author
 
-**Your Name**
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your.email@example.com
+**Vineet**
+Data Analyst — Tata Consultancy Services (TCS), Mumbai
+
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/vm62)
+- [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/vineet1595)
+- Email: vineetm1595@gmail.com
 
 ---
 
@@ -469,7 +471,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 🙏 Acknowledgements
 
 - Dataset sourced from Kaggle — Bengaluru House Price Data
-- Built with guidance from [Anthropic Claude](https://claude.ai)
 - TensorFlow/Keras documentation
 - Scikit-learn documentation
 - Power BI Microsoft documentation
@@ -480,6 +481,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ⭐ **If you found this project helpful, please give it a star!** ⭐
 
-*Built with ❤️ over 7 days — from raw CSV to Neural Network*
 
 </div>
