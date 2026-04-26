@@ -99,19 +99,14 @@ This project builds a complete house price prediction system for Bangalore, Indi
 ```
 bangalore-house-price-prediction/
 │
-├── 📓 notebooks/
-│   ├── Day1_SQL_Exploration.ipynb
-│   ├── Day2_Data_Cleaning.ipynb
-│   ├── Day3_EDA_Visualizations.ipynb
-│   ├── Day4_Feature_Engineering_Pipeline.ipynb
-│   ├── Day5_Baseline_ML_Models.ipynb
-│   ├── Day6_Deep_Learning.ipynb
-│   └── Day7_Evaluation_Predict_Function.ipynb
+├── 📓 notebook/
+│   ├── Bangalore Prediction.ipynb
+│   
 │
 ├── 📊 data/
 │   ├── Bengaluru_House_Data.csv          ← raw data
-│   ├── bangalore_cleaned.csv             ← cleaned data (Day 2 output)
-│   └── model_predictions.csv            ← predictions export (Day 7 output)
+│   ├── bangalore_cleaned.csv             
+│   └── model_predictions.csv            
 │
 ├── 🤖 models/
 │   ├── preprocessor.pkl                 ← fitted Scikit-learn pipeline
@@ -121,26 +116,26 @@ bangalore-house-price-prediction/
 │   └── best_nn_model.keras              ← checkpoint copy
 │
 ├── 📈 charts/
-│   ├── chart1_price_distribution.png
-│   ├── chart2_bhk_vs_price.png
-│   ├── chart3_correlation_heatmap.png
-│   ├── chart4_top_locations.png
-│   ├── chart5_price_vs_sqft.png
-│   ├── chart6_area_type_boxplot.png
-│   ├── chart7_actual_vs_predicted.png
-│   ├── chart8_residuals.png
-│   ├── chart9_lr_coefficients.png
-│   ├── chart10_training_history.png
-│   ├── chart11_nn_predictions.png
-│   ├── chart12_all_models_comparison.png
-│   └── chart13_final_comparison.png
+│   ├── price_distribution.png
+│   ├── bhk_vs_price.png
+│   ├── correlation_heatmap.png
+│   ├── top_locations.png
+│   ├── price_vs_sqft.png
+│   ├── area_type_boxplot.png
+│   ├── actual_vs_predicted.png
+│   ├── residuals.png
+│   ├── lr_coefficients.png
+│   ├── training_history.png
+│   ├── nn_predictions.png
+│   ├── all_models_comparison.png
+│   └── final_comparison.png
 │
 ├── 📊 powerbi/
-│   ├── Dashboard1_EDA_Bangalore.pbix
-│   └── Dashboard2_ModelPerformance.pbix
+│   ├── Bangalore House Prediction.pbix
+│   
 │
 ├── 🗄️ sql/
-│   └── setup_queries.sql                ← all SQL queries used in Day 1
+│   └── setup_queries.sql                
 │
 ├── arrays/
 │   ├── X_train_processed.npy
