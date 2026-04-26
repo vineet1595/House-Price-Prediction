@@ -32,7 +32,6 @@
 - [Dataset](#-dataset)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
-- [7-Day Project Breakdown](#-7-day-project-breakdown)
 - [Model Results](#-model-results)
 - [Neural Network Architecture](#-neural-network-architecture)
 - [ML Pipeline](#-ml-pipeline)
@@ -152,54 +151,6 @@ bangalore-house-price-prediction/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## 🗓️ 7-Day Project Breakdown
-
-### Day 1 — SQL Setup & Data Exploration
-- Loaded 13,320 rows from CSV into a **MySQL database** using Python + SQLAlchemy
-- Ran 5 SQL queries to explore area types, price statistics, and top expensive locations
-- Discovered key issues: 5,502 missing society values, price ranges from ₹8L to ₹3,600L
-
-### Day 2 — Data Cleaning
-- Dropped `society` column (41% missing)
-- Extracted BHK number from text column — `"2 BHK"` → `2`
-- Converted `total_sqft` ranges — `"1000-1200"` → `1100` (average)
-- Filled missing `bath` (73) and `balcony` (609) with median values
-- Created `price_per_sqft` column and removed outliers using 1st–99th percentile
-- **Result:** 12,985 clean rows, 0 missing values
-
-### Day 3 — Exploratory Data Analysis
-- Built **6 Python charts**: price histogram, BHK vs price bar, correlation heatmap, top locations, scatter plot, box plot
-- Built **Power BI Dashboard 1**: EDA with 6 visuals, 3 KPI cards, 3 slicers
-- Key finding: `total_sqft` has strongest correlation with price (0.65)
-
-### Day 4 — Feature Engineering + Pipeline
-- Selected 4 numeric features + 2 categorical features
-- Built a `ColumnTransformer` pipeline with `StandardScaler` + `OneHotEncoder`
-- Split data: **80% training (10,388 rows)** / **20% testing (2,597 rows)**
-- Processed features expanded from **6 → 904 columns** after one-hot encoding
-- Saved pipeline as `preprocessor.pkl`
-
-### Day 5 — Baseline ML Models
-- Trained **Linear Regression** → R² = 0.7204, MAE = ₹30.48L
-- Trained **Random Forest** (200 trees) → R² = 0.6966, MAE = ₹28.45L
-- Linear Regression won Day 5 — set as benchmark to beat
-- Feature importance analysis confirmed `total_sqft` as top predictor
-
-### Day 6 — Deep Learning Neural Network
-- Built a **4-layer Neural Network**: Dense(256) → Dense(128) → Dense(64) → Output(1)
-- Used `BatchNormalization`, `Dropout`, `EarlyStopping`, `ReduceLROnPlateau`, `ModelCheckpoint`
-- Trained for up to 300 epochs (early stopping triggered around epoch 160)
-- **Neural Network R² = 0.8177 — beat all baseline models!**
-
-### Day 7 — Evaluation, Predict Function & Power BI
-- Built final 3-model comparison table
-- Created `predict_house_price()` function that takes house details → returns price
-- Exported predictions with error analysis to CSV
-- Built **Power BI Dashboard 2**: model performance with scatter, error distribution, R² comparison
-- Saved all models for reuse
 
 ---
 
