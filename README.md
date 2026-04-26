@@ -135,7 +135,7 @@ bangalore-house-price-prediction/
 │   
 │
 ├── 🗄️ sql/
-│   └── setup_queries.sql                
+│   └── SQL_queries.sql                
 │
 ├── arrays/
 │   ├── X_train_processed.npy
